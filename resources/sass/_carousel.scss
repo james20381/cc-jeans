@@ -1,0 +1,71 @@
+/* Original css from Bootstrap carousel
+-------------------------------------------------- */
+
+// /* Carousel base class */
+// .carousel {
+//     // margin-bottom: 4rem;
+// }
+//   /* Since positioning the image, we need to help out the caption */
+//   .carousel-caption {
+//     bottom: 3rem;
+//     z-index: 10;
+//   }
+  
+//   /* Declare heights because of positioning of img element */
+//   .carousel-item {
+//     height: 32rem;
+//   }
+//   .carousel-item > img {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     min-width: 100%;
+//     height: 32rem;
+//   }
+
+  /* Sass for carousel
+-------------------------------------------------- */
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+
+#carousel-blue-base {
+    height: 5rem; 
+    background: #162d50; 
+}
+
+// Background images
+#jeans-layed-out {
+    background: black url("/../img/jeans-layed-out-1920.jpg") no-repeat center;
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+}
+
+#jeans-womens-hips {
+    background: black url("/../img/jeans-womens-hips-1920.jpg") no-repeat center;
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+}
+
+#jeans-single-man {
+    background: black url("/../img/jeans-single-man-1920.jpg") no-repeat center;
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: .5;
+    height: 80vh;
+}

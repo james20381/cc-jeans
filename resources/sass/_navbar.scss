@@ -1,0 +1,60 @@
+#nav-extension {
+    background: #162d50;
+    
+        ul#nav-extension-ul {
+            display: flex;
+            margin-right: 1rem;
+            height: 2.5rem;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+
+            li.nav-extension-li {
+                list-style: none;
+                border-right: $border-width  $border-color solid;
+
+                a {
+                    text-decoration: none;
+                    color: $white;
+
+                }
+            }
+            
+        }    
+}
+
+// Main nav-link & navbar-brand styling
+#mainNav {
+    > .navbar-brand:focus {
+        color: $navbar-light-color;
+
+        &:hover {
+            color: $navbar-light-hover-color;
+        }
+
+        &:active {
+            color: $navbar-light-active-color;
+        }
+    }
+
+.navbar-nav {
+    > li.nav-item {
+        > a.nav-link,
+        > a.nav-link:focus {        
+            color: $navbar-light-color;
+            font-weight: 500;
+       
+            &:hover {
+                color: $navbar-light-hover-color;
+          
+            }
+
+            &.active {
+                color: $navbar-light-active-color;
+                   
+            }
+        }
+    }
+}
+}   

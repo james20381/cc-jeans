@@ -1,0 +1,15 @@
+#about {
+    position: relative;
+    background: #162d50;
+    padding: 4vh 0;
+
+    .jumbotron {
+        width: 45rem;
+        margin: 0 auto;
+        background: transparent;
+
+        hr {
+            border-top: 1px solid $secondary;
+        }
+    }
+}
